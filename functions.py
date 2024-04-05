@@ -7,6 +7,7 @@ def mean(data):
     """
     return sum(data) / len(data)
 
+
 def median(data):
     """
     This function calculates the median of a list of numerical data.
