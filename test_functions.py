@@ -2,7 +2,7 @@ from functions import mean, median
 
 
 def test_mean():
-    assert mean([2, 3, 4, 5]) == 3.5
+    assert mean([2, 3, 4, 5]) == 15
 
 
 def test_median():
