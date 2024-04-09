@@ -18,6 +18,10 @@ def median(data):
     data_sorted = sorted(data)
     n = len(data_sorted)
     if n % 2 == 0:
-        return (data_sorted[n // 2 - 1] + data_sorted[n // 2]) / 2
+    	#changed /2 to /4 at the end to make test fail
+        return (data_sorted[n // 2 - 1] + data_sorted[n // 2]) / 4
     else:
-        return data_sorted[n // 2]
+    
+    #addded newlines and tabs for ruff fail
+    
+        return 			data_sorted[n // 2]
