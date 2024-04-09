@@ -5,7 +5,7 @@ def mean(data):
     data is a list of numbers.
     returns is the mean of the numbers.
     """
-    return sum(data) / len(data)
+    return (sum(data) / len(data)) +10
 
 
 def median(data):
@@ -18,8 +18,8 @@ def median(data):
     data_sorted = sorted(data)
     n = len(data_sorted)
     if n % 2 == 0:
-    	#changed /2 to /4 at the end to make test fail
-        return (data_sorted[n // 2 - 1] + data_sorted[n // 2]) / 4
+    	
+        return (data_sorted[n // 2 - 1] + data_sorted[n // 2]) / 2
     else:
     
     #addded newlines and tabs for ruff fail
